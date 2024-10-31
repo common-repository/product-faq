@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product FAQ for Woocommerce\n"
+"POT-Creation-Date: 2022-10-12 18:38+0300\n"
+"PO-Revision-Date: 2020-06-24 10:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-product-faq.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/class-admin.php:53 inc/class-admin.php:67 inc/class-admin.php:90
+#: inc/class-public.php:45 inc/class-public.php:71
+msgid "FAQ"
+msgstr ""
+
+#: inc/class-admin.php:54 inc/class-admin.php:92
+msgid "Remove"
+msgstr ""
+
+#: inc/class-admin.php:55 inc/class-admin.php:94
+msgid "Enter FAQ title"
+msgstr ""
+
+#: inc/class-admin.php:56 inc/class-admin.php:97
+msgid "Enter FAQ description"
+msgstr ""
+
+#: inc/class-admin.php:107
+msgid "Add New Faq"
+msgstr ""
+
+#: woo-product-faq.php:108 woo-product-faq.php:122
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Product FAQ for Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/product-faq"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adding uniq FAQ for each download"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wow-estore.com"
+msgstr ""

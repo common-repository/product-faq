@@ -1,0 +1,57 @@
+/* =Accordion
+-------------------------------------------------------------- */
+$border_color: #ECEFF4;
+$primary: #8FBCBB;
+
+.accordion-wrap {
+  max-width: 100%;
+  margin: 0 0 22px;
+  .accordion-title {
+    cursor:pointer;
+    border: 1px solid $border_color;
+    height: 56px;
+    line-height: 56px;
+    display: block;
+    position: relative;
+    .faq-title {
+      padding: 0 20px;
+    }
+    .plus, .minus, .status {
+      float: left;
+      display:none;
+      width: 60px;
+      height: 100%;
+      border-right: 1px solid $border_color;
+      text-align: center;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+    }
+    &.active{
+      background: $primary;
+      color: #ffffff;
+      .status {
+        background: $primary;
+        color: #ffffff !important;
+      }
+    }
+    .plus {
+      display:block;
+    }
+    &.active .minus  {
+      display:block;
+
+    }
+    &.active .plus  {
+      display:none;
+    }
+
+  }
+  .accordion-content {
+    padding: 25px;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: $border_color;
+  }
+
+}
